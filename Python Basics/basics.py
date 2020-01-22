@@ -49,14 +49,11 @@
 # print(msg)
 
 # Exercise Ten String Methods
-course = 'How to become a star'
-print(len(course))
-
-
-
-
-
-
-
-
-
+# course = 'How to become stars'
+#len()
+# course.upper()
+# course.lower()
+# course.title()
+# course.find()
+# course.replace()
+# '....' in course
