@@ -23,11 +23,11 @@
 # is_new = True
 
 # Exercise Six Python Cheat Sheet:
-# name = input('Who are you? ')
-# favourite_animal = input('Whats your favourite animal? ')
-# favourite_travel = input('Where is your favourite place to travel too? ')
-# message = input('I would like to write ')
-# print(name + ' likes ' + favourite_animal + ' and loves ' + favourite_travel + ' Thank you so much for watching! ')
+name = input('Who are you? ')
+favourite_animal = input('Whats your favourite animal? ')
+favourite_travel = input('Where is your favourite place to travel too? ')
+message = input('I would like to write ')
+print(name + ' likes ' + favourite_animal + ' and loves ' + favourite_travel + ' Thank you so much for watching! ')
 
 #Exercise Seven Type Conversion:
 # weight_lbs = input('Weight (lbs): ')
