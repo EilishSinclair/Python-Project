@@ -46,7 +46,18 @@ else:
 print("Remember to be happy tomorrow ")
 
 # Exercise Five Logical Operators
-has_good_credit = True
-has_great_house = False
-if has_good_credit and not has_great_house:
-    print("Eligible for loan")
+has_good_background = True
+has_good_references = True
+
+if has_good_background and not has_good_references:
+    print ("Eligible for adoption")
+
+# Exercise Six Comparison Operators
+name = "Bruce"
+
+if len(name) < 3:
+    print("Name has to be at least 3 characters")
+elif len(name) > 50:
+    print("Name must be a maximum of 50 characters.")
+else:
+    print("Name looks good!")
