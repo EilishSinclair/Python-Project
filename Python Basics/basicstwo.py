@@ -1,4 +1,14 @@
-# Exercise One Arithmetic Operations
+# Exercise One String Methods:
+course = 'How to become stars'
+# len()
+# course.upper()
+# course.lower()
+# course.title()
+# course.find()
+# course.replace()
+# '....' in course
+
+# Exercise Two Arithmetic Operations:
 # Adding
 print(10 + 3)
 # Subtracting
@@ -18,7 +28,7 @@ x = 10
 x += 3
 print(x)
 
-# Exercise Two Operator Precedence
+# Exercise Three Operator Precedence:
 x = (10 + 3) * 2 ** 2
 print(x)
 # parenthesis
@@ -26,11 +36,11 @@ print(x)
 # multiplication or division
 # addition or subtraction
 
-# Exercise Three Math Functions
+# Exercise Four Math Functions:
 import math
 print(math.floor(2.9))
 
-# Exercise Four If Statements
+# Exercise Five If Statements:
 is_happy = False
 is_excited = False
 
@@ -45,14 +55,14 @@ else:
 
 print("Remember to be happy tomorrow ")
 
-# Exercise Five Logical Operators
+# Exercise Six Logical Operators
 has_good_background = True
 has_good_references = True
 
 if has_good_background and not has_good_references:
     print ("Eligible for adoption")
 
-# Exercise Six Comparison Operators
+# Exercise Seven Comparison Operators
 name = "Bruce"
 
 if len(name) < 3:
@@ -61,3 +71,20 @@ elif len(name) > 50:
     print("Name must be a maximum of 50 characters.")
 else:
     print("Name looks good!")
+
+# Exercise Eight Weight Converter
+weight = int(input('Weight: '))
+unit = input('(L)bs or (K)g: ')
+if unit.upper() == "L":
+    converted = weight * 0.45
+    print(f"Your weight is {converted} kilos")
+else:
+    converted = weight / 0.45
+    print(f"Your weight is {converted} pounds")
+
+# Exercise Nine While Loops
+guess_count = 1
+while guess_count <= 5:
+    print ('*' * guess_count)
+    guess_count = guess_count + 1
+print("Completed")
