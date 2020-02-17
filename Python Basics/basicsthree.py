@@ -51,3 +51,9 @@ for number in numbers:
     if number not in uniques:
         uniques.append(number)
 print(uniques)
+
+# Exercise Four Tuples
+numbers = (1, 2, 3)
+numbers[0] = 10
+print(numbers[0])
+
