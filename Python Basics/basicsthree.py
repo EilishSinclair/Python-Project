@@ -55,3 +55,8 @@ print(uniques)
 # Exercise Four Tuples
 numbers = (1, 2, 3)
 print(numbers[0])
+
+# Exercise Five Unpacking
+coordinates = [1, 2, 3,]
+x, y, z = coordinates
+print(z)
