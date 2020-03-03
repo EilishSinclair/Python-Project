@@ -62,3 +62,18 @@ x, y, z = coordinates
 print(z)
 
 # Exercise Six Dictionaries
+# Key Value Pairs
+# Name: Daisy Flower
+# Email: daisy@gmail.com
+# Phone: 01234
+phone = input("Phone: ")
+digits_mapping = {
+ "1": "One",
+ "2": "Two",
+ "3": "Three",
+ "4": "Four"
+}
+output = ""
+for ch in phone:
+    output += digits_mapping.get(ch, "!") + " "
+print(output)
