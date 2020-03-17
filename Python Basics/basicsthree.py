@@ -53,13 +53,13 @@ for number in numbers:
 print(uniques)
 
 # Exercise Four Tuples
-numbers = (1, 2, 3)
-print(numbers[0])
+# numbers = (1, 2, 3)
+# print(numbers[0])
 
 # Exercise Five Unpacking
-coordinates = [1, 2, 3,]
-x, y, z = coordinates
-print(z)
+# coordinates = [1, 2, 3,]
+# x, y, z = coordinates
+# print(z)
 
 # Exercise Six Dictionaries
 # Key Value Pairs
@@ -79,16 +79,24 @@ print(z)
 #print(output)
 
 # Exercise Seven Emoji Converter
-message = input(">")
-words = message.split(' ')
-emojis = {
-    ":/": "🥰",
-    ":(": "🏆️",
-    ":)": "👩‍🦽🧑🏻‍🦽🧑🏼‍🦽🚶🏽‍♀️🧑🏽‍🦯🏃🏼‍♀️🧑🏾‍🦼🕴🏽👩🏻‍🦽🧑🏿‍🦼"
-}
-output = ""
-for word in words:
-    output += emojis.get(word, word) + " "
-print(output)
+# message = input(">")
+# words = message.split(' ')
+# emojis = {
+    # ":/": "🥰",
+    # ":(": "🏆️",
+    # ":)": "👩‍🦽🧑🏻‍🦽🧑🏼‍🦽🚶🏽‍♀️🧑🏽‍🦯🏃🏼‍♀️🧑🏾‍🦼🕴🏽👩🏻‍🦽🧑🏿‍🦼"
+# }
+# output = ""
+# for word in words:
+    # output += emojis.get(word, word) + " "
+# print(output)
+
+# Exercise Eight Functions
+def greet_user():
+    print('How are you?')
+    print('How is your day going')
 
 
+print("Start")
+greet_user()
+print("Finish")
