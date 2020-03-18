@@ -92,11 +92,14 @@ print(uniques)
 # print(output)
 
 # Exercise Eight Functions
-def greet_user():
-    print('How are you?')
-    print('How is your day going')
+# def greet_user():
+    # print('How are you?')
+    # print('How is your day going?')
 
 
-print("Start")
-greet_user()
-print("Finish")
+# print("Start")
+# greet_user()
+# print("Finish")
+
+# Exercise Nine Parameters
+def greet_user(name):
