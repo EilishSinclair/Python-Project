@@ -79,13 +79,24 @@ print(uniques)
 #print(output)
 
 # Exercise Seven Emoji Converter
-message = input(">")
-words = message.split(' ')
-emojis = {
-    ":)": "🥰",
-    ":(": "✈️"
-}
-output = ""
-for word in words:
-    output += emojis.get(word, word) + " "
-print(output)
+# message = input(">")
+#words = message.split(' ')
+#emojis = {
+   # ":)": "🥰",
+    #":(": "✈️"
+#}
+#output = ""
+#for word in words:
+    #output += emojis.get(word, word) + " "
+#print(output)
+
+# Exercise Eight Functions
+def greet_user():
+    print('Welcome to....')
+    print('New York City!')
+    print('Have a great trip.')
+
+
+print("Start here")
+greet_user()
+print('Finish here')
