@@ -79,16 +79,16 @@ print(uniques)
 #print(output)
 
 # Exercise Seven Emoji Converter
-# message = input(">")
-#words = message.split(' ')
-#emojis = {
-   # ":)": "🥰",
-    #":(": "✈️"
-#}
-#output = ""
-#for word in words:
-    #output += emojis.get(word, word) + " "
-#print(output)
+message = input(">")
+words = message.split(' ')
+emojis = {
+    ":)": "🥰",
+    ":(": "✈️"
+}
+output = ""
+for word in words:
+    output += emojis.get(word, word) + " "
+print(output)
 
 # Exercise Eight Functions
 def greet_user():
@@ -99,4 +99,16 @@ def greet_user():
 
 print("Start here")
 greet_user()
+print('Finish here')
+
+# Exercise Nine Parameters
+def greet_user(first_name, last_name):
+    print(f'Welcome {first_name} {last_name} to')
+    print('New York City!')
+    print('Have a great trip.')
+
+
+print("Start here")
+greet_user("Daisy", "Disney")
+greet_user("Franklin", "Disney")
 print('Finish here')
