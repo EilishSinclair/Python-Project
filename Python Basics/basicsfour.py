@@ -11,4 +11,4 @@ print("Finish")
 def square(number):
     print(number * number)
 
-print(square(3))
+print(square(5))
