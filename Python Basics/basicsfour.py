@@ -39,3 +39,9 @@ except ZeroDivisionError:
     print('Age cannot be 0.')
 except ValueError:
     print('Invalid value')
+
+# Exercise Five Comments
+# Use comments to explain Hows and Whys not Whats.
+print("Travelling is great for the soul!")
+
+# Exercise Six Classes
