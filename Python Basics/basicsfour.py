@@ -66,3 +66,16 @@ point2.x = 1
 print(point2.x)
 
 # Exercise Seven Constructors
+class Person:
+    def __init__(self, name):
+        self.name = name
+
+    def talk(self):
+        print(f"Hello, everyone my name is {self.name}")
+
+
+daisy = Person("Daisy Robin")
+daisy.talk()
+
+christopher = Person("Christopher Robin")
+christopher.talk()
