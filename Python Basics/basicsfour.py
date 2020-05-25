@@ -79,3 +79,16 @@ daisy.talk()
 
 christopher = Person("Christopher Robin")
 christopher.talk()
+
+# Exercise Eight Inheritance
+class Mammal:
+    def walk(self):
+        print("walk")
+
+
+class Cat(Mammal):
+    def be_cute(self):
+        print("cute")
+
+cat1 = Cat()
+cat1.be_cute()
