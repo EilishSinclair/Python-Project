@@ -1,94 +1,52 @@
-# Exercise One Keyword Arguments
-def greet_user(first_name, last_name):
-    print(f'Hello and welcome {first_name} {last_name}')
-    print(' To London, England!')
+# Exercise One Logical Operators
+has_good_background = True
+has_good_references = True
 
-print("Start")
-greet_user("Jan", last_name="Golding")
-print("Finish")
+if has_good_background and not has_good_references:
+    print("Eligible for adoption")
 
-# Exercise Two Return Statements
-def square(number):
-    print(number * number)
+# Exercise Two Dictionaries
+# Key Value Pairs
+Name: DaisyFlower
+Email: daisy@gmail.com
+Phone: 0o1234
+phone = input("Phone: ")
+digits_mapping = {
+ "1": "One",
+ "2": "Two",
+ "3": "Three",
+ "4": "Four"
+}
+output = ""
+for ch in phone:
+    output += digits_mapping.get(ch, "!") + " "
+print(output)
 
-print(square(5))
-
-# Exercise Three Creating A Reusable Function
-def emoji_converter(message):
-    words = message.split(" ")
-    emojis = {
-        ":)": "🥰",
-        ":(": "👧🏽"
-    }
-    output = ""
-    for word in words:
-        output += emojis.get(word, word) + " "
-    return output
-
-
+# Exercise Three Emoji Converter
 message = input(">")
-print(emoji_converter(message))
+words = message.split(' ')
+emojis = {
+    ":)": "🥰",
+    ":(": "✈️"
+}
+output = ""
+for word in words:
+    output += emojis.get(word, word) + " "
+print(output)
 
-# Exercise Four Exceptions
-try:
-    age = int(input('Age: '))
-    income = 2000
-    risk = income / age
-    print(age)
-except ZeroDivisionError:
-    print('Age cannot be 0.')
-except ValueError:
-    print('Invalid value')
+# Exercise Four Tuples
+numbers = (1, 2, 3)
+print(numbers[0])
 
-# Exercise Five Comments
-# Use comments to explain Hows and Whys not Whats.
-print("Travelling is great for the soul!")
+# Exercise Five Unpacking
+coordinates = [1, 2, 3,]
+x, y, z = coordinates
+print(z)
 
-# Exercise Six Classes
-# Basic types in Python: Numbers, Strings and Booleans.
-# Learnt about Lists, Dictionaries.
-class Point:
-    def move(self):
-        print("move")
-
-    def draw(self):
-        print("draw")
-
-
-point1 = Point()
-point1.x = 10
-point1.y = 20
-print(point1.x)
-point1.draw()
-
-point2 = Point()
-point2.x = 1
-print(point2.x)
-
-# Exercise Seven Constructors
-class Person:
-    def __init__(self, name):
-        self.name = name
-
-    def talk(self):
-        print(f"Hello, everyone my name is {self.name}")
-
-
-daisy = Person("Daisy Robin")
-daisy.talk()
-
-christopher = Person("Christopher Robin")
-christopher.talk()
-
-# Exercise Eight Inheritance
-class Mammal:
-    def walk(self):
-        print("walk")
-
-
-class Cat(Mammal):
-    def be_cute(self):
-        print("cute")
-
-cat1 = Cat()
-cat1.be_cute()
+# Exercise Six List Methods
+numbers = [2, 2, 4, 6, 3, 4, 6, 1]
+uniques = []
+for number in numbers:
+    if number not in uniques:
+        uniques.append(number)
+print(uniques)
