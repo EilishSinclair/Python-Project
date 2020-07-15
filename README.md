@@ -1,2 +1,7 @@
 # Python-Project
-This is where I am learning to better understand python as well as building applications.
+I am currently learning about Python. I will eventually be building three web applications.
+``
+Project One:
+
+``
+Automation with Python.
