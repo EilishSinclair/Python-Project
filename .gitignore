@@ -7,3 +7,5 @@ ecommerce/__pycache__/
 Modules/__pycache__/
 Modules/utils.pyc
 venv/
+__init__.pyc
+shipping.pyc
