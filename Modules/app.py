@@ -1,12 +1,5 @@
-import random
+from utils import find_max
 
-
-class Dice:
-    def roll(self):
-        first = random.randint(1, 6)
-        second = random.randint(1, 6)
-        return first, second
-
-
-dice = Dice()
-print (dice.roll())
+numbers = [10, 3, 6, 2]
+maximum = find_max(numbers)
+print(maximum(numbers))
