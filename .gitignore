@@ -5,3 +5,5 @@ Python Basics/.idea
 .idea/
 ecommerce/__pycache__/
 Modules/__pycache__/
+Modules/utils.pyc
+venv/
