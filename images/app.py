@@ -1,1 +1,0 @@
-# An image is soon to come under this folder.
