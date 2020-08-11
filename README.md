@@ -1,7 +1,5 @@
 # Python Website
 
-# PythonWebsite
-
 This is a personal project that I am currently working on. [why are you doing this? What motivates you?]
 
 * MVP (Minimum Viable Project)
